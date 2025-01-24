@@ -318,6 +318,28 @@ h1 {
 }
 
 
+/* -------------------------------------------prize segment------------------------------ */
+.prizes {
+  
+    padding: 60px 0;
+}
+
+.prizes h1 {
+    font-size: 2.5rem;
+    color: #fffbfb;
+}
+
+.prizes h2 {
+    font-size: 2rem;
+    color: #0056b3;
+}
+
+.prizes p {
+    font-size: 1.1rem;
+    color: #f3eded;
+}
+
+
 
 /* -----------------------------------sponsor section--------------------------------- */
 .sponsors h1 {
