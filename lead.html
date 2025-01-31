@@ -85,6 +85,26 @@
             color: #41e0a0;
             margin-bottom: 10px;
         }
+        
+                .rulebook-btn {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .rulebook-btn .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #41e0a0;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .rulebook-btn .btn:hover {
+            background: #34c48c;
+        }
 
         .prizes img {
             max-width: 200px;
@@ -142,11 +162,25 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
+
+        .image-container {
+        display: flex;
+        justify-content: center; /* Centers images */
+        gap: 20px; /* Adds space between images */
+        flex-wrap: wrap; /* Ensures responsiveness */
+    }
+
+    .image-container img {
+        max-width: 45%; /* Ensures they fit side by side */
+        height: auto;
+        border-radius: 10px; /* Optional: Adds rounded corners */
+    }
+
     </style>
 </head>
 <body>
     <header>
-        <img src="/asset/Lead.jpg" alt="Event Logo">
+        <img src="asset/Lead.jpg" alt="Event Logo">
         <h1>LEAD THE FUTURE - 2025</h1>
         <p>A platform for emerging leaders to showcase their skills in leadership, problem-solving, and team management.</p>
         <a href="#registration" class="btn">Register Now</a>
@@ -163,9 +197,12 @@
         <p><strong>Rounds:</strong></p>
         <ul>
             <li><strong>Round 1: Online Leadership Quiz</strong> - Test your knowledge and critical thinking skills through a series of leadership-based questions.</li>
-            <li><strong>Round 2: Online Case Study Challenge</strong> - Collaborate with your team to create a solution for a complex leadership problem. Submit your solution in the form of a PowerPoint video presentation.</li>
-            <li><strong>Round 3: Final On-Site Challenge (Top Teams Only)</strong> - The top teams will go head-to-head in an on-the-spot problem-solving challenge. Demonstrate your leadership and decision-making skills under pressure while managing an unexpected scenario.</li>
+            <li><strong>Round 2: Problem-Solving Presentation (PowerPoint video submission)</strong> - Collaborate with your team to create a solution for a complex leadership problem. Submit your solution in the form of a PowerPoint video presentation.</li>
+            <li><strong>Final Round : On-the-spot leadership challenge during the grand finale</strong> - The top teams will go head-to-head in an on-the-spot problem-solving challenge. Demonstrate your leadership and decision-making skills under pressure while managing an unexpected scenario.</li>
         </ul>
+        <div class="rulebook-btn">
+            <a href="https://drive.google.com/file/d/1CinBij2gflzqKUFw1rc3DZTLnP6Cjdyz/view" target="_blank" class="btn">View Rulebook</a>
+        </div>
     </section>
 
     <section class="section">
@@ -179,18 +216,26 @@
             <li><strong>Champion Team:</strong> 10,000 BDT</li>
             <li><strong>Runner-Up Team:</strong> 6,000 BDT</li>
         </ul>
-        <!-- <img src="prizes.png" alt="Prizes Image"> -->
     </section>
+
+    <section class="section prizes" style="background: #1a203d;">
+        <h2>Competition Timeline & Prize Pool</h2>
+        <div class="image-container">
+            <img src="asset/lead-prize.jpg" alt="Prize Details">
+            <img src="asset/lead-time.jpg" alt="Competition Timeline">
+        </div>
+    </section>
+    
 
     <section class="section registration" id="registration">
         <h2>Registration Details</h2>
-        <p><strong>Fee:</strong> 200 BDT per team</p>
-        <p><strong>Registration Opens:</strong> January 16th, 2025</p>
-        <p><strong>Registration Closes:</strong> February 1st, 2025</p>
+        <p><strong>Fee:</strong> 325 BDT per team</p>
+        <p><strong>Registration Opens:</strong> January 24th, 2025</p>
+        <p><strong>Registration Closes:</strong> February 10th, 2025</p>
         <p><strong>How to Register:</strong></p>
         <strong>Online:</strong>
         
-        <!-- <img src="banner.png" alt="Event Banner" class="banner"> -->
+        <img src="banner.png" alt="Event Banner" class="banner">
         <iframe src="https://forms.gle/V8d7rvaS1E7ZDgHk9"></iframe>
         <div class="qr-code">
             <p>Scan the QR Code to Register:</p>
